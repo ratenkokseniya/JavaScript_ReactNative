@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "scheme": "acme",
+    "plugins": [
+      "expo-router"
+    ],
+    "name": "RickAndMortyApp",
+    "slug": "RickAndMortyApp",
+    "icon": "./icon.png",
+    "jsEngine": "hermes",
+    "newArchEnabled": true,
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "7e90fa15-abe8-40b6-9bda-c442125c0c01"
+      }
+    },
+    "owner": "savchuk_roman",
+    "android": {
+      "package": "com.savchuk_roman.RickAndMortyApp"
+    }
+  }
+}
